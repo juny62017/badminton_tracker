@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0fbff;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #007bff;
+}
+
+.main-box {
+  max-width: 500px;
+  margin: auto;
+}
+
+.blue-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.black-btn {
+  background-color: black;   /* STRICTLY black */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-card {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#matches {
+  margin-top: 20px;
+}
+
+.matchItem {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
