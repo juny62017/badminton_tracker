@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Badminton Match Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 class="title">Badminton Match Tracker</h1>
+
+  <div class="main-box">
+
+    <button id="addBtn" class="blue-btn">Add New Match</button>
+
+    <div id="formBox" class="form-card" style="display:none;">
+      <h3>Enter Match Details</h3>
+
+      <p>Player 1</p>
+      <input type="text" id="p1">
+
+      <p>Player 2</p>
+      <input type="text" id="p2">
+
+      <p>Score</p>
+      <input type="text" id="scoreInput" placeholder="21-18">
+
+      <br><br>
+      <button id="saveMatch" class="black-btn">Save Match</button>
+    </div>
+
+    <div id="matches"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
